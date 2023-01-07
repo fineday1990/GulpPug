@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+		title Pug
+		link(rel="stylesheet", href="css/main.min.css")
+		script(src="js/main.min.js") 
+	body
+		header.header
+			.container
+				.header__flex
+					.header__logo.logo
+						.logo__title Pug
+					nav.header__nav
+						ul
+							li: a(href="") Home
+							li: a(href="") Portfolio
+							li: a(href="") About
+		main.main
+			.container
+				.main__title Index Page
+				.main__text
+					p Lorem ipsum dolor sit amet, consectetur #[strong adipisicing] elit. Praesentium ad, ab accusamus. #[a(href="") Minima delectus] alias atque a, tenetur perspiciatis reiciendis eligendi quaerat. #[br]Quos pariatur, fugit enim quod eaque, rerum.!!!
+		footer.footer
+			.container
+				.footer__copyright © Pug 2020
